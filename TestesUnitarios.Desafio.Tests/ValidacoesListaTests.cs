@@ -39,7 +39,6 @@ public class ValidacoesListaTests
     {
         //TODO: Implementar método de teste
         // Ok
-
         // Arrange
         var lista = new List<int> { 5, -1, -8, 9 };
         var numeroParaProcurar = 10;
@@ -58,7 +57,6 @@ public class ValidacoesListaTests
     {
         //TODO: Implementar método de teste
         // Ok
-
         // Arrange
         var lista = new List<int> { 5, 7, 8, 9 };
         var resultadoEsperado = new List<int> { 10, 14, 16, 18 };
@@ -75,7 +73,6 @@ public class ValidacoesListaTests
     {
         //TODO: Implementar método de teste
         // Ok
-
         // Arrange
         var lista = new List<int> { 5, -1, -8, 9 };
         var resultadoEsperado = 9; //
@@ -93,14 +90,12 @@ public class ValidacoesListaTests
     public void DeveRetornarOitoNegativoComoMenorNumeroDaLista()
     {
         //TODO: Implementar método de teste
-
         // Arrange
         var lista = new List<int> { 5, -1, -8, 9 };
         var resultadoEsperado = -8; //
-
+        
         // Act
         var resultado = _validacoes.RetornarMenorNumeroLista(lista);
-
         
         //TODO: Corrigir o Assert.Equal com base no retorno da chamada ao método
         // Assert
