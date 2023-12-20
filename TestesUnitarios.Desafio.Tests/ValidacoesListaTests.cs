@@ -47,7 +47,8 @@ public class ValidacoesListaTests
         var resultado = _validacoes.ListaContemDeterminadoNumero(lista, numeroParaProcurar); //
 
         // Assert
-        Assert.False(resultado); // obs: não vai achar o número 10, logo, retornará verdadeiro.
+        Assert.False(resultado); // obs: var resultado, não vai achar o número 10, logo, 
+                                 // vai satisfazer a condição de Assert.False()
     }
 
     //TODO: Corrigir a anotação [Fact]
