@@ -64,7 +64,6 @@ public class ValidacoesStringTests
     {
         //TODO: Corrigir a variável "textoProcurado" seção Arrange
         // Ok
-
         // Arrange
         var texto = "Começo, meio e fim do texto procurado";
         var textoProcurado = "procurado"; // 
